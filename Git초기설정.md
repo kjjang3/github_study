@@ -88,12 +88,20 @@ $ git commit -m "commit message"
 
 ```bash
 $ git log # 로그 출력
+# (HEAD -> master) 버전이 가장 최신 버전임
 ```
 
 
 
 ```bash
 $ git log --oneline # 로그를 한줄로 요약하여 출력
+```
+
+## mv
+
+```bash
+# mv 파일명 바꿀파일명
+$ mv 00_git_intro.md 01_git_intro.md # 00_git_intro.md 파일명을 01_git_intro.md로 변경
 ```
 
 
